@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/39866.jpg";
 // import resume from "../src/img/Raj Resume.pdf"
 import { FaDownload } from "react-icons/fa"
 import Profile from "./assets/profile.jpeg";
@@ -36,7 +35,7 @@ function About() {
               </p> */}
               <div className="about__button d__flex align__items__center">
                 {/* {resume} */}
-                <a href="https://drive.google.com/file/d/1yVwS-vVblVy5lEVpLrlBCkRQxzv3PmbI/view?usp=share_link" target="blank">
+                <a href="https://docs.google.com/document/d/1zLpIBYDikOKu5BHqWtTToaqZGVA1qA6Y/edit?usp=sharing&ouid=107300518993118884279&rtpof=true&sd=true" target="blank">
                   <button className="about btn pointer"><FaDownload />Download CV</button>
                 </a>
                 {/* <a href="#">

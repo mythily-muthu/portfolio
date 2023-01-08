@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Home.css";
-import logo from "./img/logo.jpg";
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
@@ -93,7 +92,14 @@ function Home() {
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
               <h2 className="home__text pz__10">Mrs. Mythily P</h2>
-              <h4 className="home__text pz__10">I'm a passionate <h3 className="home__text sweet pz__10">Web Developer</h3> from India</h4>
+              <h4 className="home__text pz__10">I'm a passionate <span className="home__text sweet pz__10"
+                style={{
+                  fontSize: "45px",
+                  fontWeight: 800,
+                  fontFamily: "Montserrat, sans-serif",
+                  lineHeight: "40px",
+                }}
+              >Web Developer</span> from India</h4>
             </div>
             <div className="social_Icons">
               <a href="https://github.com/mythily-muthu"><FaGithub /></a>
@@ -103,7 +109,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
