@@ -6,7 +6,7 @@
 }
 
 .home__bg {
-  background-image: url(../src/img/98671.jpg);
+  background-image: url(https://i.pinimg.com/originals/d1/73/a0/d173a05b65b249a3b9909fda944fac70.jpg);
   background-color: #010101;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ h1.home__text {
 }
 
 h2.home__text {
-  font-size: 54px;
+  font-size: 60px;
   line-height: 54px;
   font-weight: 800;
   font-family: Montserrat, sans-serif;

@@ -1,11 +1,18 @@
 import React from "react";
 import "./Project.css";
-import blog from './img/Blog.png';
-import hotel from './img/Hotel.png';
-import ecommerce from './img/ecommerce.png';
-import car from './img/car.png';
-import coffee from './img/coffee.png';
+//import blog from './img/Blog.png';
+//import hotel from './img/Hotel.png';
+//import ecommerce from './img/ecommerce.png';
+//import car from './img/car.png';
+//import coffee from './img/coffee.png';
 import watch from './img/watch.png';
+
+// project images
+import AdminDashboard from "./assets/admin_dashboard.png";
+import Netflix from "./assets/netflix.png";
+import Food from "./assets/food_app.png";
+import Business from "./assets/online_business.png";
+import Todo from "./assets/todo.png";
 import {
     FaGithub,
 } from "react-icons/fa";
@@ -25,7 +32,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={blog} alt="" className="project__img" />
+                                    <img src={AdminDashboard} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -38,9 +45,6 @@ function Project() {
                                     <a href="https://github.com/mythily-muthu/admin_dashboard_app" className="project__btn"><FaGithub /> For Client</a>
 
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={hotel} alt="" className="project__img" />
+                                    <img src={Netflix} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -73,7 +77,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={ecommerce} alt="" className="project__img" />
+                                    <img src={Food} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -94,7 +98,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={car} alt="" className="project__img" />
+                                    <img src={Business} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -115,7 +119,7 @@ function Project() {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={coffee} alt="" className="project__img" />
+                                    <img src={Todo} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
@@ -140,11 +144,11 @@ function Project() {
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
-                                <h5 className="project__text">Watch Store</h5>
+                                <h5 className="project__text">Movie App</h5>
                                 <h4 className="project__text">Getting tickets to the big show</h4>
                                 <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
-                                    <a href="https://online-watch-store.netlify.app/" className="project__btn">View Project</a>
-                                    <a href="https://github.com/Gokulcasper/Watch-store" className="project__btn"><FaGithub /> View GitHub</a>
+                                    <a href="" className="project__btn">View Project</a>
+                                    <a href="https://github.com/mythily-muthu/movie_app." className="project__btn"><FaGithub /> View GitHub</a>
 
                                 </div>
                             </div>

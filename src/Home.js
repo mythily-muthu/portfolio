@@ -4,7 +4,7 @@ import logo from "./img/logo.jpg";
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
-
+import Profile from "./assets/profile.jpeg";
 
 function Home() {
   // fixed Header
@@ -19,7 +19,7 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={Profile} alt="" />
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">

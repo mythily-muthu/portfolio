@@ -17,13 +17,13 @@ function Service() {
 
       <div className="container">
         <div className="row">
-          <div className="col__md__2" data-aos="flip-right">
+          <div className="col__md__1" data-aos="flip-left">
 
             <div class="progress__title">
               <h3>React</h3>
               <div className="progress">
-                <div className="progress__bar" style={{ width: "85%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">85%</div>
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
                 </div>
               </div>
             </div>
@@ -31,17 +31,59 @@ function Service() {
             <div class="progress__title">
               <h3>JavaScript</h3>
               <div className="progress">
-                <div className="progress__bar" style={{ width: "90%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">90%</div>
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
                 </div>
               </div>
             </div>
 
             <div class="progress__title">
+              <h3>Tailwind</h3>
+              <div className="progress">
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress__title">
+              <h3>Bootstrap</h3>
+              <div className="progress">
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress__title">
+              <h3>SASS</h3>
+              <div className="progress">
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="col__md__2" data-aos="flip-right">
+
+            <div class="progress__title">
+              <h3>Material UI</h3>
+              <div className="progress">
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="progress__title">
               <h3>Git</h3>
               <div className="progress">
-                <div className="progress__bar" style={{ width: "90%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">90%</div>
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
                 </div>
               </div>
             </div>
@@ -49,8 +91,8 @@ function Service() {
             <div class="progress__title">
               <h3>HTML</h3>
               <div className="progress">
-                <div className="progress__bar" style={{ width: "85%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">85%</div>
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
                 </div>
               </div>
             </div>
@@ -58,12 +100,14 @@ function Service() {
             <div class="progress__title">
               <h3>CSS</h3>
               <div className="progress">
-                <div className="progress__bar" style={{ width: "85%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">85%</div>
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
       </div>
     </div>

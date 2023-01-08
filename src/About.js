@@ -3,7 +3,7 @@ import "./About.css";
 import aboutImg from "./img/39866.jpg";
 // import resume from "../src/img/Raj Resume.pdf"
 import { FaDownload } from "react-icons/fa"
-
+import Profile from "./assets/profile.jpeg";
 
 function About() {
   //  Up To Top Btn
@@ -16,7 +16,7 @@ function About() {
       <div className="container">
         <div className="row__about">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={Profile} alt="" className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
