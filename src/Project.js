@@ -8,6 +8,7 @@ import Netflix from "./assets/netflix.png";
 import Food from "./assets/food_app.png";
 import Business from "./assets/online_business.png";
 import Todo from "./assets/todo.png";
+import DietApp from "./assets/dietapp.png";
 import {
     FaGithub,
 } from "react-icons/fa";
@@ -39,6 +40,27 @@ function Project() {
                                     <a href="https://mythu-admin-dashboard.netlify.app/" className="project__btn">View Project</a>
                                     <a href="https://github.com/mythily-muthu/admin_dashboard_app" className="project__btn"><FaGithub /> For Client</a>
 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col__3" data-aos="flip-up">
+                        <div className="project__box pointer relative">
+                            <div className="project__box__img pointer relative">
+                                <div className="project__img__box">
+                                    <img src={DietApp} alt="" className="project__img" />
+                                </div>
+                                <div className="mask__effect"></div>
+                            </div>
+
+                            <div className="project__meta absolute">
+                                <h5 className="project__text">Diet App</h5>
+                                <h4 className="project__text">Healthy Eating for a Healthy Weight</h4>
+                                <div className="btn_view" style={{ display: "flex", gap: "5px" }}>
+                                    <a href="https://mythu-diet-app.netlify.app" className="project__btn">View Project</a>
+                                    <a href="https://github.com/mythily-muthu/diet-app-client" className="project__btn"><FaGithub /> For Client</a>
+                                    <a href="https://github.com/mythily-muthu/diet-app-server" className="project__btn"> For Server</a>
                                 </div>
                             </div>
                         </div>
