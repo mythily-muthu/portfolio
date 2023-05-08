@@ -35,9 +35,9 @@ function About() {
               </p> */}
               <div className="about__button d__flex align__items__center">
                 {/* {resume} */}
-                <a href="https://docs.google.com/document/d/1F6wQeCvP4bgC5BOf6yTr9_OBpvbsUQ52b4qMPv1C4d0/edit?usp=sharing" target="blank">
+                {/* <a href={process.env.PUBLIC_URL + '/assets/Mythily_full_resume.pdf'} download >
                   <button className="about btn pointer"><FaDownload />Download CV</button>
-                </a>
+                </a> */}
                 {/* <a href="#">
                   <button className="about btn pointer">Hire Me</button>
                 </a> */}
