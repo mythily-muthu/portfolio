@@ -29,7 +29,7 @@ function Service() {
             </div>
 
             <div class="progress__title">
-              <h3>JavaScript</h3>
+              <h3>NodeJS</h3>
               <div className="progress">
                 <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
                   <div className="progress__value">75%</div>
@@ -38,7 +38,16 @@ function Service() {
             </div>
 
             <div class="progress__title">
-              <h3>Tailwind</h3>
+              <h3>Express JS</h3>
+              <div className="progress">
+                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
+                  <div className="progress__value">75%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="progress__title">
+              <h3>Tailwind CSS</h3>
               <div className="progress">
                 <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
                   <div className="progress__value">75%</div>
@@ -56,7 +65,7 @@ function Service() {
             </div>
 
             <div class="progress__title">
-              <h3>SASS</h3>
+              <h3>Mongo DB</h3>
               <div className="progress">
                 <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
                   <div className="progress__value">75%</div>
@@ -89,7 +98,7 @@ function Service() {
             </div>
 
             <div class="progress__title">
-              <h3>HTML</h3>
+              <h3>MySQL</h3>
               <div className="progress">
                 <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
                   <div className="progress__value">75%</div>
@@ -97,14 +106,7 @@ function Service() {
               </div>
             </div>
 
-            <div class="progress__title">
-              <h3>CSS</h3>
-              <div className="progress">
-                <div className="progress__bar" style={{ width: "75%", height: "20px", background: "#ef2d56" }}>
-                  <div className="progress__value">75%</div>
-                </div>
-              </div>
-            </div>
+
 
           </div>
 

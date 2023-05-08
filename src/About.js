@@ -21,7 +21,7 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                A passionate Frontend developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences . The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively.
+                A passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive,handling RESTful Api, dynamic user experiences . The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively.
               </p>
               {/* <p className="about__text p__color">
                 There are many variations of passages of Lorem Ipsum available,
@@ -35,7 +35,7 @@ function About() {
               </p> */}
               <div className="about__button d__flex align__items__center">
                 {/* {resume} */}
-                <a href="https://docs.google.com/document/d/1zLpIBYDikOKu5BHqWtTToaqZGVA1qA6Y/edit?usp=sharing&ouid=107300518993118884279&rtpof=true&sd=true" target="blank">
+                <a href="https://docs.google.com/document/d/1F6wQeCvP4bgC5BOf6yTr9_OBpvbsUQ52b4qMPv1C4d0/edit?usp=sharing" target="blank">
                   <button className="about btn pointer"><FaDownload />Download CV</button>
                 </a>
                 {/* <a href="#">
