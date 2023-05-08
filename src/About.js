@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 // import resume from "../src/img/Raj Resume.pdf"
-import { FaDownload } from "react-icons/fa"
+// import { FaDownload } from "react-icons/fa"
 import Profile from "./assets/profile.jpeg";
 
 function About() {
